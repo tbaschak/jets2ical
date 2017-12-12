@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-import pandas as pd
-from icalendar import Calendar, Event, vCalAddress, vText
+import os
 from datetime import datetime
+import pandas as pd
+from icalendar import Calendar, Event, vText
 import pytz
-import tempfile, os
 
 def month_to_int(x):
     return {
