@@ -56,8 +56,8 @@ def parsetime(ptime):
     lminutes = int(lminutes)
     return lhours, lminutes
 
-year = 2017
-url = 'https://www.nhl.com/jets/schedule/2017/CT/print'
+year = 2018
+url = 'https://www.nhl.com/jets/schedule/2018/CT/print'
 stuff = pd.read_html(url, header=0)
 col1 = stuff[0]
 col2 = stuff[1]
